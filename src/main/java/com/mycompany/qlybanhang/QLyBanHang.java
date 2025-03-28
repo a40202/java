@@ -19,11 +19,18 @@ public class QLyBanHang {
             SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                SanPhamJFrame frame = new SanPhamJFrame();
-                frame.setTitle("Quản Lý Bán Hàng");
-                frame.setSize(800, 600);
-                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setVisible(true);
+//                  SanPhamJFrame sanphamJFrame = new SanPhamJFrame();
+//                  sanphamJFrame.setTitle("DashBoard");       
+//                  sanphamJFrame.setVisible(true);
+//                SanPhamJFrame frame = new SanPhamJFrame();
+//                frame.setTitle("Quản Lý Bán Hàng");
+//                frame.setSize(800, 600);
+//                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//                frame.setVisible(true);
+                  new DashBoardJFrame().setVisible(true);
+                  new DashBoardJFrame().setTitle("DashBoard");
+                  
+                  
             }
         });     
     }
